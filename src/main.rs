@@ -17,8 +17,6 @@ fn main() {
         process::exit(0);
     }
 
-    panic::set_hook(Box::new(|_| {}));
-
     if let Err(e) = run(args) {
         eprintln!("{}", e.to_string().to_lowercase().replace("\"", ""));
         print_usage();
