@@ -1,0 +1,16 @@
+[package]
+name = "instamark"
+version = "1.0.0"
+authors = ["Wembley Leach <wembley.gl@icloud.com>"]
+edition = "2021"
+license = "MIT"
+description = "Converts the Instapaper CSV export into the Netscape Bookmark file format"
+homepage = "https://github.com/wemgl/instamark"
+readme = "README.md"
+keywords = ["instapaper", "bookmark", "html", "netscape", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+csv = "1.1.6"
+itertools = "0.10.5"
+serde = { version = "1.0.145", features = ["derive"] }
