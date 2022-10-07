@@ -19,7 +19,7 @@ format.
 This GitHub repository contains executable binaries for Linux and macOS in the Release
 section for download.
 
-Additionally, download the source code from this repository, navigate to the root directory, and run
+Additionally, download the source code from this repository, navigate to the root directory, and run (assuming you've installd [Rust](https://www.rust-lang.org/tools/install))
 ```shell
 cargo build --release
 ```
