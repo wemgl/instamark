@@ -11,7 +11,7 @@ the export was saved to in a terminal window and then run:
 instamark instapaper-export.csv > instapaper-bookmarks.html
 ```
 
-You exported Instapaper data is now saved in the `instapaper-bookmarks.html` file, which you can
+Your exported Instapaper data is now saved in the `instapaper-bookmarks.html` file, which you can
 import into Safari, Chrome, Firefox, or any other browser which supports the Netscape bookmark file
 format.
 
