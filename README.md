@@ -19,7 +19,7 @@ format.
 This GitHub repository contains executable binaries for macOS, Linux, and Windows in the Release
 section for download.
 
-Additionally, download the source code from this repository, navigate to the root directory, and run (assuming you've installd [Rust](https://www.rust-lang.org/tools/install))
+Optionally, you can download the source code from this repository, navigate to the root directory, and run (assuming you've installd [Rust](https://www.rust-lang.org/tools/install)) to install `instamark` from scratch.
 ```shell
 cargo build --release
 ```
